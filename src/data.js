@@ -23,7 +23,7 @@ export const categories = [
     },
     {
       id:2,
-      img:"https://cdn.shopify.com/s/files/1/0101/4832/products/Angela_Natural_Tee.png?v=1606780388",
+      img:"https://i.ibb.co/c8jwyYW/wesley-tingey-s-PBRRw-T-f-KA-unsplash-removebg-preview.png",
     },
     {
       id:3,
@@ -43,7 +43,7 @@ export const categories = [
     },
     {
       id:7,
-      img:"https://www.vintageindustries.nl/download_front/qympzk1762/2217_Arrow_Jacket_Forest.png",
+      img:"https://i.ibb.co/0X8dSfb/pat-taylor-12-V36-G17-Ib-Q-unsplash-1-removebg-preview.png",
     },
     {
       id:8,

@@ -20,7 +20,7 @@
     width: 100%;
     color: aliceblue;
 }
-button{
+.shop-btn{
     background-color: burlywood;
     border: none;
     border-radius: 5px;
@@ -28,7 +28,7 @@ button{
     cursor: pointer;
     font-weight: 600;
 }
-button:hover{
+.shop-btn:hover{
     background-color: white;
     border: 2px solid burlywood;
 }

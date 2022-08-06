@@ -1,7 +1,14 @@
-import React from 'react';
-import {categories} from '../data'
+import React, { useEffect, useState } from 'react';
 import CatagoryItems from './CatagoryItems';
 const Catagories = () => {
+    const [categories, setCategories] = useState([]);
+    // console.log(categories)
+    useEffect(()=>{
+        fetch('Categories.json')
+        .then(res=>res.json())
+        .then(data=>setCategories(data));
+    },[]);
+
     return (
         <div style={{
             display: "flex",
@@ -11,7 +18,7 @@ const Catagories = () => {
         }} >
             {
                 categories.map(item=>(
-                    <CatagoryItems  item={item} />
+                    <CatagoryItems  item={item} key={item.id} />
                 ))
             }
         </div>

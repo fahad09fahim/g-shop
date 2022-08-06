@@ -6,7 +6,7 @@ const CatagoryItems = ({item}) => {
         <img src={item.img} alt="" />
         <div className='info'>
         <h4>{item.title}</h4>
-        <button>Shop Now</button>
+        <button className='shop-btn'>Shop Now</button>
         </div>
         </div>
     );
