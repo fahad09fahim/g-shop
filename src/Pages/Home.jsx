@@ -2,6 +2,7 @@
 import React from 'react';
 import Announcement from '../Components/Announcement';
 import Catagories from '../Components/Catagories';
+import Footer from '../Components/Footer';
 import Navbar from '../Components/Navbar';
 import NewsLetter from '../Components/NewsLetter';
 import Products from '../Components/Products';
@@ -17,6 +18,7 @@ const Home = () => {
           <Catagories/>
           <Products/>
           <NewsLetter/>
+          <Footer/>
         </div>
     );
 };

@@ -1,0 +1,18 @@
+.footer{
+    height: 20vh;
+    background-color: black;
+}
+.footer h1{
+    color: white;
+    font-size: 19px;
+    padding-top: 25px;
+    padding-right: 5px;
+}
+
+.logo-footer{
+    color: white;
+    padding-right: 5px;
+}
+.logo-footer svg{
+    size: 20px;
+}
